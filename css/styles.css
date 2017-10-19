@@ -1,0 +1,77 @@
+.form-control {
+  width:200px;
+}
+.col-md-4 {
+  border: 1px solid black;
+  padding:20px;
+  background-color: white;
+  -webkit-transition: background-color 5s; /* Safari */
+  transition: background-color 5s;
+
+}
+
+.col-md-4:hover{
+  background-color:#fff791;
+  -webkit-transition: background-color 5s; /* Safari */
+  transition: background-color 5s;
+}
+
+h1 {
+  text-align:center;
+  padding:20px;
+  font-family:sans-serif;
+}
+
+body {
+  background-color:#c1c8ff;
+}
+
+.btn {
+  background-color:#ffdea3;
+  border: 2px solid #f9bb4f;
+  color: #aa6d01;
+}
+
+.btn:hover {
+  -webkit-transition: color 2s, box-shadow 2s; /* Safari */
+  transition: color 2s, box-shadow 2s;
+  box-shadow: 0px 0px 10px 10px #ffe016;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row2 {
+
+}
+
+#output1 {
+  display: inline-block;
+}
+
+#output2 {
+  display: inline-block;
+}
+#output3 {
+  display: inline-block;
+}
+
+img {
+  padding: 100px;
+  width: 80%;
+  margin-right: 140px;
+
+}
+
+
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+}
